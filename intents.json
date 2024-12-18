@@ -1,0 +1,205 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day",
+        "What's up", "Morning", "Good morning", "Good evening", "Afternoon",
+        "Hi there", "Heya", "Hey there", "Greetings", "How are you doing",
+        "How's it going", "How do you do", "Nice to meet you", "pleasure to meet you",
+        "How are things", "What's new"
+      ],
+      "responses": [
+        "Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?",
+        "Hi there, how can I help?", "Hello! How can I assist you today?",
+        "Great to see you! How can I help?", "Hi! What brings you here today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Take care", "I'm leaving",
+        "Have a good day", "catch you later", "got to go", "bye bye",
+        "see ya", "talk to you later", "I need to go", "I'm off",
+        "have a nice day", "goodbye for now", "until next time"
+      ],
+      "responses": [
+        "See you later, thanks for visiting", "Have a nice day",
+        "Bye! Come back again soon.", "Take care!", "Goodbye! Have a great day!",
+        "Thanks for chatting! Come back soon!", "Looking forward to our next conversation!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Appreciate it",
+        "Thanks for the help", "You're very helpful", "This was useful",
+        "Thanks for your time", "That's great, thanks", "Perfect, thank you",
+        "You've been helpful", "Much appreciated", "Cheers"
+      ],
+      "responses": [
+        "Happy to help!", "Any time!", "My pleasure", "You're welcome!",
+        "Glad I could help!", "No problem at all!", "Don't mention it!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?", "What kinds of items are there?", "What do you sell?",
+        "What's on the menu?", "What can I buy here?", "Show me your products",
+        "What's available?", "What do you offer?", "What are your items?",
+        "Can I see your menu?", "What drinks do you have?", "What's your selection?",
+        "Do you have a catalog?", "Show me what you have"
+      ],
+      "responses": [
+        "We sell coffee and tea", "We have coffee and tea",
+        "Our menu features various coffee and tea options",
+        "We specialize in premium coffee and tea selections"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?", "Do you accept Mastercard?", "Can I pay with Paypal?",
+        "Are you cash only?", "What payment methods do you accept?",
+        "Can I pay by card?", "Do you take cash?", "Is Apple Pay accepted?",
+        "Can I use Google Pay?", "What cards do you take?",
+        "Is contactless available?", "Do you accept digital payments?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "We take all major payment methods including cards and digital payments",
+        "Yes, we accept credit cards, digital payments, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?", "How long does shipping take?",
+        "When do I get my delivery?", "What's the delivery time?",
+        "When will I receive my order?", "How fast is your shipping?",
+        "What are your delivery options?", "Do you deliver same day?",
+        "Is next day delivery available?", "What's the estimated delivery time?",
+        "When can I expect my package?", "Shipping duration?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days", "Shipping takes 2-4 days",
+        "Your order will arrive within 2-4 business days",
+        "Standard delivery time is 2-4 days"
+      ]
+    },
+    {
+      "tag": "prices",
+      "patterns": [
+        "How much does it cost?", "What are your prices?", "How much is it?",
+        "What's the price range?", "Are your prices reasonable?",
+        "Can I get a price list?", "Tell me about your prices",
+        "Are you expensive?", "Do you have any deals?", "Any discounts available?"
+      ],
+      "responses": [
+        "Our prices range from $3 to $7 for drinks",
+        "We offer competitive prices starting at $3",
+        "Please check our menu for detailed pricing",
+        "We have options for every budget, starting at $3"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?", "When are you open?", "What time do you close?",
+        "Are you open now?", "What are your operating hours?",
+        "What days are you open?", "Weekend hours?", "Holiday hours?",
+        "What time do you open tomorrow?", "Are you open on Sundays?"
+      ],
+      "responses": [
+        "We're open Monday to Friday 9AM-9PM, and weekends 10AM-8PM",
+        "Our hours are 9AM-9PM weekdays, 10AM-8PM weekends",
+        "We operate 7 days a week, with slightly reduced hours on weekends"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?", "What's your address?", "Where can I find you?",
+        "Where is your store?", "Location of your shop?", "Where are you based?",
+        "Can I visit your store?", "Where is your office?", "Where is your headquarters?"
+      ],
+      "responses": [
+        "We are located at 123 Coffee Street, Brewtown",
+        "Our store is at 123 Coffee Street, Brewtown",
+        "You can find us at 123 Coffee Street, Brewtown",
+        "Visit us at 123 Coffee Street, Brewtown"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?", "What's your phone number?", "Can I call you?",
+        "Do you have an email?", "How do I reach you?", "Contact information?",
+        "Can I get in touch with you?", "What's your contact info?",
+        "How can I get in touch?", "What's your email address?"
+      ],
+      "responses": [
+        "You can contact us at (123) 456-7890 or email us at info@coffeeshop.com",
+        "Reach us at (123) 456-7890 or info@coffeeshop.com",
+        "Feel free to call us at (123) 456-7890 or email info@coffeeshop.com",
+        "Our contact number is (123) 456-7890 and email is info@coffeeshop.com"
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "How do I cancel my order?", "Can I cancel my order?", "I want to cancel my order",
+        "Order cancellation process?", "How to cancel an order?", "Cancel my order",
+        "Can I get a refund?", "How do I get a refund?", "Refund process?"
+      ],
+      "responses": [
+        "To cancel your order, please contact our support team at (123) 456-7890",
+        "You can cancel your order by reaching out to us at info@coffeeshop.com",
+        "For cancellations, please call us at (123) 456-7890",
+        "Contact our support team for cancellations and refunds"
+      ]
+    },
+    {
+      "tag": "order_tea",
+      "patterns": [
+        "I want to order tea", "Can I have some tea?", "I'd like a cup of tea",
+        "Tea please", "Order tea", "Give me tea", "I'd like to buy tea"
+      ],
+      "responses": [
+        "Sure! What type of tea would you like to buy? We have green, black, and herbal tea available"
+      ]
+    },
+    {
+      "tag": "specify_tea_type",
+      "patterns": [
+        "I want green tea", "Make it black tea", "Herbal tea please", "I'll have black tea",
+        "Green tea", "Black tea", "Herbal tea"
+      ],
+      "responses": [
+        "Great choice! order placed!"
+      ]
+    },
+    {
+      "tag": "order_coffee",
+      "patterns": [
+        "I want to order coffee", "Can I have some coffee?", "I'd like a cup of coffee",
+        "Coffee please", "Order coffee", "Give me coffee", "I'd like to buy coffee"
+      ],
+      "responses": [
+        "Sure! What type of coffee powder would you like? We have espresso, arabica, and robusta available"
+      ]
+    },
+    {
+      "tag": "specify_coffee_type",
+      "patterns": [
+        "I want espresso", "Make it arabica", "Robusta please", "I'll have arabica",
+        "Espresso", "Robusta", "Arabica"
+      ],
+      "responses": [
+        "Great choice! Order placed"
+      ]
+    }
+  ]
+}
